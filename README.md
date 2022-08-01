@@ -1,6 +1,6 @@
 # Terraform-102 Sainsburys Data Academy
 
-This is a basic example of using Terraform to create an EC2 instance on AWS.
+This is a basic example of using Terraform to create an EC2 instance including Grafana and a simple Lambda function on AWS.
 
 ## Requirements
 
