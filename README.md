@@ -1,4 +1,4 @@
-# Terraform-101 Sainsburys Data Academy
+# Terraform-102 Sainsburys Data Academy
 
 This is a basic example of using Terraform to create an EC2 instance on AWS.
 
