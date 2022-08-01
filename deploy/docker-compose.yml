@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  terraform:
+    image: hashicorp/terraform:1.2.4
+    volumes:
+      - .:/my_app/deploy
+      - ../src:/my_app/src
+    working_dir: /my_app/deploy
+    env_file:
+      - ./.env
+    # environment:
+    #   - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+    #   - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+    #   - AWS_SESSION_TOKEN=${AWS_SESSION_TOKEN}
