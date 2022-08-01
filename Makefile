@@ -23,4 +23,4 @@ tf-destroy:
 	docker-compose -f deploy/docker-compose.yml run --rm terraform destroy
 
 con-ec2:
-	aws ssm start-session --target i-00b04b7c102e21f56 --profile default --region eu-west-1
+	aws ssm start-session --target <your-ec2-instance-id> --profile default --region eu-west-1
